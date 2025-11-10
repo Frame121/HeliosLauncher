@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+* { font-family: 'Mitr', sans-serif !important; }
+
+body { 
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%) !important;
+    animation: bg 20s ease infinite !important;
+    background-size: 400% 400% !important;
+}
+
+@keyframes bg {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+#frameBar { 
+    background: rgba(15, 23, 42, 0.95) !important; 
+    border-bottom: 1px solid rgba(59, 130, 246, 0.2) !important;
+}
+
+#loginOptionsContainer {
+    background: rgba(15, 23, 42, 0.95) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+#loginOptionsContent {
+    background: rgba(30, 41, 59, 0.9) !important;
+    border: 2px solid rgba(59, 130, 246, 0.3) !important;
+    border-radius: 20px !important;
+    padding: 40px !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5) !important;
+}
+
+.loginOptionButton {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(37, 99, 235, 0.2)) !important;
+    border: 2px solid rgba(59, 130, 246, 0.4) !important;
+    border-radius: 12px !important;
+    padding: 16px !important;
+    transition: all 0.3s !important;
+}
+
+.loginOptionButton:hover {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(37, 99, 235, 0.3)) !important;
+    border-color: rgba(59, 130, 246, 0.7) !important;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3) !important;
+    transform: translateY(-2px) !important;
+}
